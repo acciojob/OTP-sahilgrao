@@ -15,7 +15,7 @@ codes.forEach((code,index)=>{
 				if (codes[index + 1]){
 					codes[index + 1].focus();
 				} 
-			},10);
+			},4);
 		}
 		//backspace behaviour
 		if(e.key === 'Backspace'){
@@ -23,7 +23,7 @@ codes.forEach((code,index)=>{
 				if (codes[index - 1]){
 					codes[index - 1].focus();
 				}
-			},10);
+			},4);
 		}
 	})
 })
