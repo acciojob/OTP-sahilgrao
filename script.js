@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const codes = document.querySelectorAll('.code');
 
-//codes[0].focus();
+codes[0].focus();
 
 codes.forEach((code,index)=>{
 
@@ -13,7 +13,7 @@ codes.forEach((code,index)=>{
 
 			setTimeout(()=>{
 				if (codes[index + 1]){
-					//codes[index + 1].focus();
+					codes[index + 1].focus();
 				} 
 			},4);
 		}
